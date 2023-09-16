@@ -1,0 +1,152 @@
+.Home1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Home1>div {
+    /* heading and the image container*/
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.Home1>div+div {
+    /* line and paragragraph container*/
+    flex-direction: column;
+    margin-right: 15%;
+    justify-content: space-evenly;
+}
+
+.bg1Home {
+    height: 200px;
+    margin-top: 15%;
+    position: relative;
+    right: 15%;
+
+}
+
+.Home1 h1 {
+    font-size: 100px;
+    width: 400px;
+}
+
+span {
+    color: var(--pinkColor);
+}
+
+.Home1 p {
+    width: 412px;
+    font-size: 18px;
+}
+
+.line {
+    background-color: #79C8C7;
+}
+
+.bg2Home {
+    position: relative;
+    left: 60%;
+    top: 35px;
+}
+
+
+/*            Home 2              */
+
+.Home2 {
+    background-color: var(--secondaryColor);
+    margin-top: 31px;
+    display: flex;
+    padding-top: 10%;
+    justify-content: space-between;
+}
+
+.Home2> :first-child {
+    /* container with line and heading */
+    width: 420px;
+    margin-left: 200px;
+}
+
+.Home2 h1 {
+    font-size: 48px;
+}
+
+.icons-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+}
+
+.Home2 p {
+    font-size: 15px;
+    width: 400px;
+
+}
+
+.Home2 h3 {
+    font-size: 18px;
+    color: var(--pinkColor);
+}
+
+.bg3Home {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.bg3Home img {
+    left: 50%;
+    position: relative;
+}
+
+/* Home Stories */
+
+.HomeStories h1 {
+    text-align: center;
+    font-size: 48px;
+    margin-top: 5%;
+}
+
+.container {
+    /* content conatainer */
+    display: flex;
+    justify-content: center;
+}
+
+em+div {
+    /* Images container */
+    display: flex;
+    justify-content: center;
+}
+
+.container img {
+    width: 60px;
+    border-radius: 35px;
+    border: 2px solid var(--lightBlueColor);
+    margin-top: 30px;
+}
+
+.HomeStories p {
+    font-size: 15px;
+    text-align: center;
+    width: 335px;
+    margin-right: 20px;
+}
+
+.HomeStories h3 {
+    color: var(--lightBlueColor);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.HomeStories em {
+    text-align: center;
+    display: block;
+    font-size: 15px;
+}
+
+.HomeStories> :last-child {
+    display: flex;
+    justify-content: end;
+}

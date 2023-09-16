@@ -1,0 +1,46 @@
+.Card {
+    background-color: var(--secondaryColor);
+    height: 270px;
+    width: 320px;
+    box-sizing: border-box;
+    padding: 10%;
+    overflow: visible;
+
+}
+
+.Card img {
+    width: 100px;
+    border-radius: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid var(--lightBlueColor);
+}
+
+.Card h3 {
+    color: var(--lightBlueColor);
+    text-align: center;
+
+}
+
+.Card em {
+    font-size: 15px;
+    text-align: center;
+    display: block;
+}
+
+
+.Card button {
+    width: 50px;
+    margin: 31px auto 0 auto;
+    display: block;
+    font-size: 30px;
+    border: none;
+    color: var(--secondaryColor);
+    background-color: var(--pinkColor);
+}
+
+.Card button:hover {
+    background-color: var(--lightBlueColor);
+    transition-duration: 0.3s;
+}

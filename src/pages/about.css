@@ -1,0 +1,87 @@
+.first-section {
+    display: flex;
+    padding-top: 5%;
+
+}
+
+.first-section h1 {
+    font-size: 64px;
+    margin-left: 10%;
+}
+
+.first-section>div {
+    margin-left: 10%;
+    margin-top: 4%;
+}
+
+.first-section>div p {
+    font-size: 18px;
+    width: 80%;
+}
+
+.first-section img {
+    margin-right: -6%;
+    margin-top: 8%;
+}
+
+/*  Directors Section  */
+
+.directors-section {
+    background-color: #004047;
+
+}
+
+.directors-section>img {
+    position: relative;
+    right: 7%;
+}
+
+.directors-section h1 {
+    font-size: 48px;
+    /* margin-top: -6%; */
+    text-align: center;
+}
+
+.grid {
+
+    display: grid;
+    margin-left: 13%;
+    margin-right: 13%;
+    margin-top: 5%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 10%;
+
+}
+
+.directors-section>:last-child {
+    /* image at the bottom */
+    display: flex;
+    justify-content: end;
+    position: relative;
+    bottom: 12%;
+}
+
+/* Brands Section */
+
+.clients-section {
+    padding-bottom: 8%;
+    background-color: var(--secondaryColor);
+}
+
+.clients-section h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+    margin-top: -5%;
+    text-align: center;
+}
+
+.brands {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.brands img {
+    max-width: 100px;
+}

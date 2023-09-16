@@ -1,0 +1,75 @@
+.Footer {
+    background-color: var(--secondaryColor);
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+
+}
+
+.Footer> :first-child {
+    margin-left: 17%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Footer h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.home-about {
+    /* Container of links home and about */
+    justify-content: space-between;
+}
+
+.address-container {
+    margin-left: 11%;
+}
+
+.address {
+    width: 140px;
+}
+
+.phone-number {
+    color: var(--greyColor);
+}
+
+.wrap {
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20%;
+}
+
+.wrap>div {
+    justify-content: end;
+}
+
+svg {
+    margin-right: 15px;
+}
+
+.twitter-icon {
+    padding-top: 3px;
+}
+
+
+.Footer p {
+    color: var(--greyColor);
+}
+
+.copyright {
+    margin-bottom: 5px;
+}
+
+svg path:hover {
+    fill: var(--pinkColor);
+    transition-duration: 0.5s;
+}
+
+.Footer,
+.Footer> :first-child,
+.home-about,
+.wrap,
+.wrap>div {
+    display: flex;
+}

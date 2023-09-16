@@ -1,0 +1,99 @@
+.ContactPage {
+    background-color: var(--primaryColor);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6%;
+}
+
+.left-side div {
+    display: flex;
+    margin-bottom: 10px;
+
+}
+
+.ContactPage h1 {
+    font-size: 64px;
+    margin: 0;
+    margin-bottom: 48px;
+}
+
+.ContactPage h2 {
+    color: var(--pinkColor);
+    font-size: 32px;
+    text-align: left;
+}
+
+.ContactPage p {
+    font-size: 18px;
+    margin: auto 0 auto 30px;
+
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+
+.inputs * {
+
+    margin-bottom: 10px;
+    background-color: transparent;
+    color: white;
+    border: 0;
+    padding: 13px;
+    border-bottom: 1px solid white;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 5px;
+
+}
+
+
+.inputs textarea {
+    height: 20%;
+}
+
+
+.inputs button {
+    background-color: white;
+    color: var(--secondaryColor);
+    height: 40px;
+    width: 130px;
+    margin-top: 23px;
+    border: 0;
+    padding: 0;
+
+
+}
+
+.last-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    min-height: 490px;
+    overflow: hidden;
+}
+
+.last-image img {
+    margin-right: -100px;
+}
+
+#submit:hover {
+    background-color: var(--lightBlueColor);
+}
+
+.image1-container {
+    overflow: hidden;
+}
+
+.image1-container img {
+    margin-left: -100px;
+}
+
+::placeholder {
+    font-size: 15px;
+    font-weight: 600;
+    color: #99B8BB;
+
+}
